@@ -1,0 +1,23 @@
+data;
+set V1 := Altus Ardmore Bartlesville Duncan Edmond Enid Lawton Muskogee
+		 OklahomaCity PoncaCity Stillwater Tulsa;
+set V2 := Altus Ardmore Bartlesville Duncan Edmond Enid Lawton Muskogee
+		 OklahomaCity PoncaCity Stillwater Tulsa;
+		 
+param l: 		
+				Altus Ardmore Bartlesville Duncan Edmond   Enid   Lawton Muskogee OklahomaCity PoncaCity Stillwater Tulsa :=
+Altus 	  		0.0		169.8 	291.8		88.2	153.9  208.2  54.2	 274.2	   141.1         245.0    209.2     248.0
+Ardmore  		169.8	0.0	    248.6       75.9    112.5  199.0  115.8  230.4     100.5         202.2    162.6     204.6
+Bartlesville    291.8	248.6	0.0			231.5	146.0  132.4  238.7  92.2      151.4         70.2     115.0      45.6
+Duncan 			88.2	75.9	231.5		0.0		93.5   137.5  34.1   213.5     80.9          184.8    145.3     187.8
+Edmond 			153.9	112.5	146.0		93.5	0.0	   88.8   100.7  145.7     14.4          91.9     53.0      102.2
+Enid 			208.2	199.0	132.4		137.5	88.8   0.0    145.0  166.4     87.6          64.5     65.8      118.4
+Lawton 			54.2	115.8	238.7		34.1	100.7  145.0  0.0    220.6     88.0          191.9    152.5     194.9
+Muskogee		274.2	230.4	92.2		213.5	145.7  166.4  220.6  0.0       140.4         142.5    119.2      48.1
+OklahomaCity 	141.1	100.5	151.4		80.9	14.4   87.6   88.0   140.4      0.0          104.7    66.6      107.6
+PoncaCity 		245.0	202.2	70.2		184.8	91.9   64.5   191.9  142.5     104.7         0.0      41.9       96.5
+Stillwater 		209.2	162.6	115.0		145.3	53.0   65.8   152.5  119.2     66.6          41.9     0.0       71.2
+Tulsa			248.0	204.6	45.6		187.8	102.2  118.4  194.9  48.1      107.6         96.5    71.2        0.0;
+
+
+
